@@ -1,0 +1,83 @@
+.features {
+  padding: 120px 8%;
+
+  background: #080b10;
+}
+
+.features-header {
+  max-width: 700px;
+
+  margin-bottom: 70px;
+}
+
+.features-header h2 {
+  font-size: clamp(2.8rem, 6vw, 5.5rem);
+
+  line-height: 0.95;
+
+  margin-bottom: 30px;
+}
+
+.features-header > p:last-child {
+  color: #a1a1aa;
+
+  font-size: 1rem;
+
+  line-height: 1.7;
+
+  max-width: 500px;
+}
+
+.features-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 1px;
+
+  background: #27272a;
+}
+
+.feature-card {
+  min-height: 300px;
+
+  padding: 35px 30px;
+
+  background: #080b10;
+
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  background: #0d1420;
+}
+
+.feature-card span {
+  display: block;
+
+  color: #3b82f6;
+
+  font-size: 0.8rem;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 80px;
+}
+
+.feature-card h3 {
+  font-size: 1rem;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 20px;
+}
+
+.feature-card p {
+  color: #71717a;
+
+  font-size: 0.9rem;
+
+  line-height: 1.7;
+}

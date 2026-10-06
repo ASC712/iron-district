@@ -1,0 +1,114 @@
+.structure {
+  padding: 120px 8%;
+
+  background: #080b10;
+}
+
+.structure-header {
+  max-width: 700px;
+
+  margin-bottom: 70px;
+}
+
+.structure-header h2 {
+  font-size: clamp(2.8rem, 6vw, 5.5rem);
+
+  line-height: 0.95;
+
+  margin-bottom: 30px;
+}
+
+.structure-header > p:last-child {
+  color: #a1a1aa;
+
+  max-width: 500px;
+
+  line-height: 1.7;
+}
+
+.structure-grid {
+  display: grid;
+
+  grid-template-columns: 1.4fr 1fr;
+
+  grid-template-rows: 300px 300px;
+
+  gap: 20px;
+}
+
+.structure-item {
+  position: relative;
+
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+
+  min-height: 300px;
+
+  transition: transform 0.5s ease;
+}
+
+.structure-item:hover {
+  transform: scale(1.01);
+}
+
+.structure-large {
+  grid-row: span 2;
+
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/gym-hero.png");
+}
+
+.structure-cardio {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/gym-hero.png");
+}
+
+.structure-functional {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../assets/gym-hero.png");
+}
+
+.structure-environment {
+  display: none;
+}
+
+.structure-overlay {
+  position: absolute;
+
+  left: 30px;
+  bottom: 30px;
+}
+
+.structure-overlay span {
+  display: block;
+
+  color: #3b82f6;
+
+  font-size: 0.75rem;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 10px;
+}
+
+.structure-overlay h3 {
+  font-size: 1.5rem;
+
+  letter-spacing: 1px;
+}
