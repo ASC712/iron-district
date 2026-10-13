@@ -1,16 +1,50 @@
-# React + Vite
+# IRON DISTRICT — Premium Gym Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page conceitual para uma academia premium, desenvolvida como projeto de portfólio para praticar desenvolvimento front-end.
 
-Currently, two official plugins are available:
+## Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A IRON DISTRICT apresenta uma identidade visual moderna, com fundo escuro, detalhes em azul elétrico e foco em performance, disciplina e exclusividade.
 
-## React Compiler
+O site foi estruturado para apresentar a academia, seus diferenciais, modalidades, estrutura, planos e depoimentos.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the Oxlint configuration
+- Layout com múltiplas seções
+- Navegação por âncoras
+- Cards de modalidades e planos
+- Seção de depoimentos fictícios para demonstração
+- Design responsivo para desktop e dispositivos móveis
+- Efeitos visuais e animações CSS
+- Metadados básicos para identificação da página
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Git e GitHub
+
+## Como executar localmente
+
+1. Clone este repositório.
+2. Entre na pasta do projeto.
+3. Instale as dependências.
+4. Inicie o servidor de desenvolvimento.
+
+```bash
+git clone https://github.com/SEU_USUARIO/iron-district.git
+cd iron-district
+npm install
+npm run dev
+```
+
+Substitua `SEU_USUARIO` pelo seu nome de usuário do GitHub.
+
+## Status
+
+Projeto de portfólio em desenvolvimento.
+
+**Observação:** a IRON DISTRICT é uma marca fictícia criada para fins demonstrativos. Planos, preços, endereço, contatos e depoimentos apresentados no site são ilustrativos.
